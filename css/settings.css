@@ -1,0 +1,82 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: Droid Sans Mono;
+    color: #2d2d2d;
+}
+.settings {
+    background-color: #e5e5e5;
+    overflow: hidden;
+    height: 100%;
+}
+.headerbar {
+    height: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999;
+}
+.hleft {
+    float: left;
+    padding: 5px;
+}
+.nav {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+}
+.search {
+    height: 20px;
+    width: 100px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #999999;
+    border-width: 1px;
+    padding-left: 2px; 
+    padding-right: 2px;
+}
+.hright .search input {
+    background-color: transparent; 
+    border: none; 
+    outline: none; 
+    width: 100%; 
+}
+.hright {
+    float: right;
+    padding: 5px;
+}
+.content {
+    width: 100%;
+    overflow-y: scroll;
+}
+.category {
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+.ctitle {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2px;
+    font-size: 24px;
+    font-weight: lighter;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999;
+}
+.plug {
+    float: left;
+    margin: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #2d2d2d;
+}
